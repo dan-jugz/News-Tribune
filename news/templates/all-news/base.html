@@ -6,7 +6,7 @@
     {% if title %}
     <title>Moringa Tribune - {{title}}</title>
     {% else %}
-      <title> Moringa Tribune </title>
+    <title> Moringa Tribune </title>
     {% endif %}
 
     {% block styles %}
@@ -15,7 +15,7 @@
 </head>
 <body>
     {% block content %} 
-        <h1 class="text-centeer">News for {{date|date:"l d-F Y"}}</h1>
+        <h1 class="text-center">News for {{date|date:"l d-F Y"}}</h1>
     {%endblock%}
 
     {% block scripts %}
